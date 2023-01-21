@@ -1,6 +1,7 @@
 #pragma once
 #include"Vbo.h"
-#include"VertexBufferLayout.h"
+
+class VertexBufferLayout;
 
 class Vao
 {

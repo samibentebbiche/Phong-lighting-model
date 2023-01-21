@@ -1,5 +1,6 @@
 #include"Vao.h"
 #include"Renderer.h"
+#include"VertexBufferLayout.h"
 
 Vao::Vao()
 {

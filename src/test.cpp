@@ -9,6 +9,7 @@
 #include"Ibo.h"
 #include"Vao.h"
 #include"Shader.h"
+#include"VertexBufferLayout.h"
 #include<iostream>
 
 
@@ -79,19 +80,18 @@ int main(void)
     ib.Unbind();
     shader.Unbind();
 
+    Renderer renderer;
+
     float r = 0.0f;
     float inc = 0.01f;
     while (!glfwWindowShouldClose(window))
     {
         /* Render here */
-        glClear(GL_COLOR_BUFFER_BIT);
+        renderer.Clear();
 
         shader.Bind();
         shader.SetUniform4f("u_Color", r , 0.3f, 0.8f, 1.0f);
-        ib.Bind();     
-        va.Bind();
-
-        glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_INT, nullptr);
+        renderer.Draw(va,ib,shader);
         //glDrawArrays(GL_TRIANGLES,0,6);
 
         if(r > 1.0f)
