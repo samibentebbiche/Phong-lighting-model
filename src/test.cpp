@@ -3,7 +3,6 @@
 
 #include<GL/glew.h>
 #include <GLFW/glfw3.h>
-
 #include"Renderer.h"
 #include"Vbo.h"
 #include"Ibo.h"
@@ -11,7 +10,7 @@
 #include"Shader.h"
 #include"VertexBufferLayout.h"
 #include<iostream>
-
+#include"Texture.h"
 
 int main(void)
 {
@@ -41,40 +40,42 @@ int main(void)
     if(glewInit()!=GLEW_OK)
         std::cout<<"ERROR !"<<std::endl;
  
-    
     float positions [] = {
-        -0.5f, -0.5f, //0
-         0.5f, -0.5f, //1
-         0.5f, 0.5f, //2
-        -0.5f, 0.5f //3
+        -0.5f, -0.5f, 0.0f, 0.0f,  //0
+         0.5f, -0.5f, 1.0f, 0.0f,  //1
+         0.5f,  0.5f, 1.0f, 1.0f,  //2
+        -0.5f,  0.5f, 0.0f, 1.0f   //3
     };
     unsigned int indices[] = {
         0, 1, 2,
         2, 3, 0
     };
 
+    // glBlendFunc(GL_SRC_ALPHA,GL_ONE_MINUS_SRC_ALPHA);
+    // glEnable(GL_BLEND);
+    
     //Vbo;
-    Vbo vb = Vbo(positions,4 * 2 * sizeof(float));
-
+    Vbo vb = Vbo(positions,4 * 4 * sizeof(float));
 
     //vao
     Vao va;
     VertexBufferLayout layout;
     layout.Push(2, GL_FLOAT);
-    
+    layout.Push(2, GL_FLOAT);
     va.addBuffer(vb, layout);
-    
-    
-    
 
     Ibo ib = Ibo(indices, 6);
 
-
     Shader shader("../res/shaders/Vertex.shader","../res/shaders/Fragment.shader");
     shader.Bind();
-
     shader.SetUniform4f("u_Color",0.8f, 0.3f, 0.8f, 1.0f);
-    
+
+    Texture texture("../res/textures/image.png");
+    texture.Bind();
+
+    shader.SetUniform1i("u_Texture",0);
+
+
     va.Unbind();
     vb.Unbind();
     ib.Unbind();
@@ -88,20 +89,16 @@ int main(void)
     {
         /* Render here */
         renderer.Clear();
-
         shader.Bind();
         shader.SetUniform4f("u_Color", r , 0.3f, 0.8f, 1.0f);
         renderer.Draw(va,ib,shader);
         //glDrawArrays(GL_TRIANGLES,0,6);
-
         if(r > 1.0f)
             inc = -0.01f;
         else if(r<0.0f)
             inc = 0.01f;
-
         r += inc;
         glfwSwapBuffers(window);
-
         /* Poll for and process events */
         glfwPollEvents();
     }
