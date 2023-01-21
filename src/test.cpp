@@ -3,77 +3,14 @@
 
 #include<GL/glew.h>
 #include <GLFW/glfw3.h>
-#include<iostream>
-#include<fstream>
-#include<sstream>
 
 #include"Renderer.h"
 #include"Vbo.h"
 #include"Ibo.h"
 #include"Vao.h"
+#include"Shader.h"
+#include<iostream>
 
-
-// Reads a text file and outputs a string with everything in the text file
-static std::string get_file_contents(const char* filename)
-{
-	std::ifstream in(filename, std::ios::binary);
-	if (in)
-	{
-		std::string contents;
-		in.seekg(0, std::ios::end);
-		contents.resize(in.tellg());
-		in.seekg(0, std::ios::beg);
-		in.read(&contents[0], contents.size());
-		in.close();
-		return(contents);
-	}
-	throw(errno);
-}
-
-
-static unsigned int CompileShader(unsigned int type, const std::string& source)
-{
-    unsigned int id = glCreateShader(type);
-    const char* src = source.c_str();
-    glShaderSource(id, 1, &src, nullptr);
-    glCompileShader(id);
-
-    //Error handling
-    
-    /*int result,
-    glGetShaderiv(id, GL_COMPILE_STATUS,&result);
-    if(result == GL_FALSE)
-    {
-       int lenght;
-        glGetShaderiv(id,GL_INFO_LOG_LENGTH,&lenght);
-        char* message = (char*)alloca(lenght * sizeof(char)); 
-        glGetShaderInfoLog(id,lenght,&lenght,message);
-        std::cout<< "Failed to Compile "<<
-            (type==GL_VERTEX_SHADER ? "vertex":"fragment")
-            << "Shader!"<<std::endl;
-        std::cout<< message << std::endl;
-
-        glDeleteShader(id);
-        return 0;
-    }*/
-    return id;
-}
-
-static unsigned int CreateShader(const std::string& vertexShader, const std::string& fragmentShader)
-{
-    unsigned int program = glCreateProgram();
-    unsigned int vs = CompileShader(GL_VERTEX_SHADER, vertexShader);
-    unsigned int fs = CompileShader(GL_FRAGMENT_SHADER, fragmentShader);
-
-    glAttachShader(program,vs);
-    glAttachShader(program,fs);
-    glLinkProgram(program);
-    glValidateProgram(program);
-
-    glDeleteShader(vs);
-    glDeleteShader(fs);
-    return program;
-}
 
 int main(void)
 {
@@ -131,20 +68,16 @@ int main(void)
 
     Ibo ib = Ibo(indices, 6);
 
-    std::string vertexShader = get_file_contents("../res/shaders/Vertex.shader");
-    std::string fragmentShader = get_file_contents("../res/shaders/Fragment.shader");
-    unsigned int shader = CreateShader(vertexShader,fragmentShader);
-    glUseProgram(shader);
 
-    int location =  glGetUniformLocation(shader, "u_Color");
-    //ASSERT(location != -1);
-    glUniform4f(location,0.8f, 0.3f, 0.8f, 1.0f);
-    /* Loop until the user closes the window */
+    Shader shader("../res/shaders/Vertex.shader","../res/shaders/Fragment.shader");
+    shader.Bind();
+
+    shader.SetUniform4f("u_Color",0.8f, 0.3f, 0.8f, 1.0f);
     
     va.Unbind();
     vb.Unbind();
     ib.Unbind();
-    glUseProgram(0);
+    shader.Unbind();
 
     float r = 0.0f;
     float inc = 0.01f;
@@ -153,9 +86,8 @@ int main(void)
         /* Render here */
         glClear(GL_COLOR_BUFFER_BIT);
 
-        glUseProgram(shader);
-        glUniform4f(location, r , 0.3f, 0.8f, 1.0f);
-        
+        shader.Bind();
+        shader.SetUniform4f("u_Color", r , 0.3f, 0.8f, 1.0f);
         ib.Bind();     
         va.Bind();
 
@@ -174,6 +106,5 @@ int main(void)
         glfwPollEvents();
     }
     glfwTerminate();
-    glDeleteProgram(shader);
     return 0;
 }
