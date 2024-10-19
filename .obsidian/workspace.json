@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/README.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               },
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/README.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/README.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -139,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/README.md"
+                "file": "README.md"
               },
               "icon": "lucide-list",
               "title": "Plan de README"
@@ -162,8 +162,10 @@
       "command-palette:Ouvrir la palette de commandes": false
     }
   },
-  "active": "75cda36c4168889b",
+  "active": "c9fcb1c75932bbac",
   "lastOpenFiles": [
+    "src/README.md",
+    "README.md",
     "src/build/test",
     "src/build/CMakeFiles/Progress/10",
     "src/build/CMakeFiles/test.dir/Texture.cpp.o",
@@ -174,8 +176,6 @@
     "src/build/CMakeFiles/Progress/8",
     "src/build/CMakeFiles/test.dir/Renderer.cpp.o",
     "src/build/CMakeFiles/test.dir/Renderer.cpp.o.d",
-    "src/build/CMakeFiles/Progress/7",
-    "src/image/image_phong_light.png",
-    "src/README.md"
+    "src/image/image_phong_light.png"
   ]
 }
