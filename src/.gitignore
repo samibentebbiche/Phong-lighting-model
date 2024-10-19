@@ -1,0 +1,8 @@
+# Ignore les fichiers de build
+*.o
+*.out
+
+# Ignore les fichiers temporaires
+*.tmp
+*.log
+
