@@ -1,0 +1,4 @@
+/home/sami/Documents/glfw/Light/test 2/build/CMakeFiles/main.dir
+/home/sami/Documents/glfw/Light/test 2/build/CMakeFiles/full_clean.dir
+/home/sami/Documents/glfw/Light/test 2/build/CMakeFiles/edit_cache.dir
+/home/sami/Documents/glfw/Light/test 2/build/CMakeFiles/rebuild_cache.dir
