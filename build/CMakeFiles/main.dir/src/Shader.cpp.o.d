@@ -1,7 +1,7 @@
 CMakeFiles/main.dir/src/Shader.cpp.o: \
- /home/sami/Documents/glfw/Light/test\ 2/src/Shader.cpp \
+ /home/sami/Documents/glfw/Light/material/test\ 2/src/Shader.cpp \
  /usr/include/stdc-predef.h \
- /home/sami/Documents/glfw/Light/test\ 2/src/Shader.h \
+ /home/sami/Documents/glfw/Light/material/test\ 2/src/Shader.h \
  /usr/include/c++/9/string \
  /usr/include/x86_64-linux-gnu/c++/9/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/9/bits/os_defines.h \
@@ -132,8 +132,8 @@ CMakeFiles/main.dir/src/Shader.cpp.o: \
  /usr/include/c++/9/bits/invoke.h /usr/include/c++/9/limits \
  /usr/include/c++/9/bits/unordered_map.h \
  /usr/include/c++/9/bits/erase_if.h \
- /home/sami/Documents/glfw/Light/test\ 2/src/vendor/glm/glm.hpp \
- /home/sami/Documents/glfw/Light/test\ 2/src/vendor/glm/detail/_fixes.hpp \
+ /home/sami/Documents/glfw/Light/material/test\ 2/src/vendor/glm/glm.hpp \
+ /home/sami/Documents/glfw/Light/material/test\ 2/src/vendor/glm/detail/_fixes.hpp \
  /usr/include/c++/9/cmath /usr/include/math.h \
  /usr/include/x86_64-linux-gnu/bits/math-vector.h \
  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
@@ -144,10 +144,10 @@ CMakeFiles/main.dir/src/Shader.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
  /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h \
  /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
- /home/sami/Documents/glfw/Light/test\ 2/src/vendor/glm/detail/setup.hpp \
+ /home/sami/Documents/glfw/Light/material/test\ 2/src/vendor/glm/detail/setup.hpp \
  /usr/include/c++/9/cassert /usr/include/assert.h \
  /usr/include/c++/9/cstddef \
- /home/sami/Documents/glfw/Light/test\ 2/src/vendor/glm/detail/../simd/platform.h \
+ /home/sami/Documents/glfw/Light/material/test\ 2/src/vendor/glm/detail/../simd/platform.h \
  /usr/include/c++/9/climits \
  /usr/lib/gcc/x86_64-linux-gnu/9/include/limits.h \
  /usr/lib/gcc/x86_64-linux-gnu/9/include/syslimits.h \
@@ -158,143 +158,143 @@ CMakeFiles/main.dir/src/Shader.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
  /usr/include/x86_64-linux-gnu/bits/uio_lim.h /usr/include/c++/9/cfloat \
  /usr/lib/gcc/x86_64-linux-gnu/9/include/float.h \
- /home/sami/Documents/glfw/Light/test\ 2/src/vendor/glm/fwd.hpp \
- /home/sami/Documents/glfw/Light/test\ 2/src/vendor/glm/detail/qualifier.hpp \
- /home/sami/Documents/glfw/Light/test\ 2/src/vendor/glm/detail/setup.hpp \
- /home/sami/Documents/glfw/Light/test\ 2/src/vendor/glm/vec2.hpp \
- /home/sami/Documents/glfw/Light/test\ 2/src/vendor/glm/./ext/vector_bool2.hpp \
- /home/sami/Documents/glfw/Light/test\ 2/src/vendor/glm/./ext/../detail/type_vec2.hpp \
- /home/sami/Documents/glfw/Light/test\ 2/src/vendor/glm/./ext/../detail/type_vec2.inl \
- /home/sami/Documents/glfw/Light/test\ 2/src/vendor/glm/./ext/../detail/./compute_vector_relational.hpp \
- /home/sami/Documents/glfw/Light/test\ 2/src/vendor/glm/./ext/../detail/./setup.hpp \
- /home/sami/Documents/glfw/Light/test\ 2/src/vendor/glm/./ext/vector_bool2_precision.hpp \
- /home/sami/Documents/glfw/Light/test\ 2/src/vendor/glm/./ext/vector_float2.hpp \
- /home/sami/Documents/glfw/Light/test\ 2/src/vendor/glm/./ext/vector_float2_precision.hpp \
- /home/sami/Documents/glfw/Light/test\ 2/src/vendor/glm/./ext/vector_double2.hpp \
- /home/sami/Documents/glfw/Light/test\ 2/src/vendor/glm/./ext/vector_double2_precision.hpp \
- /home/sami/Documents/glfw/Light/test\ 2/src/vendor/glm/./ext/vector_int2.hpp \
- /home/sami/Documents/glfw/Light/test\ 2/src/vendor/glm/./ext/vector_int2_sized.hpp \
- /home/sami/Documents/glfw/Light/test\ 2/src/vendor/glm/./ext/../ext/scalar_int_sized.hpp \
- /home/sami/Documents/glfw/Light/test\ 2/src/vendor/glm/./ext/../ext/../detail/setup.hpp \
- /home/sami/Documents/glfw/Light/test\ 2/src/vendor/glm/./ext/vector_uint2.hpp \
- /home/sami/Documents/glfw/Light/test\ 2/src/vendor/glm/./ext/vector_uint2_sized.hpp \
- /home/sami/Documents/glfw/Light/test\ 2/src/vendor/glm/./ext/../ext/scalar_uint_sized.hpp \
- /home/sami/Documents/glfw/Light/test\ 2/src/vendor/glm/vec3.hpp \
- /home/sami/Documents/glfw/Light/test\ 2/src/vendor/glm/./ext/vector_bool3.hpp \
- /home/sami/Documents/glfw/Light/test\ 2/src/vendor/glm/./ext/../detail/type_vec3.hpp \
- /home/sami/Documents/glfw/Light/test\ 2/src/vendor/glm/./ext/../detail/type_vec3.inl \
- /home/sami/Documents/glfw/Light/test\ 2/src/vendor/glm/./ext/vector_bool3_precision.hpp \
- /home/sami/Documents/glfw/Light/test\ 2/src/vendor/glm/./ext/vector_float3.hpp \
- /home/sami/Documents/glfw/Light/test\ 2/src/vendor/glm/./ext/vector_float3_precision.hpp \
- /home/sami/Documents/glfw/Light/test\ 2/src/vendor/glm/./ext/vector_double3.hpp \
- /home/sami/Documents/glfw/Light/test\ 2/src/vendor/glm/./ext/vector_double3_precision.hpp \
- /home/sami/Documents/glfw/Light/test\ 2/src/vendor/glm/./ext/vector_int3.hpp \
- /home/sami/Documents/glfw/Light/test\ 2/src/vendor/glm/./ext/vector_int3_sized.hpp \
- /home/sami/Documents/glfw/Light/test\ 2/src/vendor/glm/./ext/vector_uint3.hpp \
- /home/sami/Documents/glfw/Light/test\ 2/src/vendor/glm/./ext/vector_uint3_sized.hpp \
- /home/sami/Documents/glfw/Light/test\ 2/src/vendor/glm/vec4.hpp \
- /home/sami/Documents/glfw/Light/test\ 2/src/vendor/glm/./ext/vector_bool4.hpp \
- /home/sami/Documents/glfw/Light/test\ 2/src/vendor/glm/./ext/../detail/type_vec4.hpp \
- /home/sami/Documents/glfw/Light/test\ 2/src/vendor/glm/./ext/../detail/type_vec4.inl \
- /home/sami/Documents/glfw/Light/test\ 2/src/vendor/glm/./ext/vector_bool4_precision.hpp \
- /home/sami/Documents/glfw/Light/test\ 2/src/vendor/glm/./ext/vector_float4.hpp \
- /home/sami/Documents/glfw/Light/test\ 2/src/vendor/glm/./ext/vector_float4_precision.hpp \
- /home/sami/Documents/glfw/Light/test\ 2/src/vendor/glm/./ext/vector_double4.hpp \
- /home/sami/Documents/glfw/Light/test\ 2/src/vendor/glm/./ext/vector_double4_precision.hpp \
- /home/sami/Documents/glfw/Light/test\ 2/src/vendor/glm/./ext/../detail/setup.hpp \
- /home/sami/Documents/glfw/Light/test\ 2/src/vendor/glm/./ext/vector_int4.hpp \
- /home/sami/Documents/glfw/Light/test\ 2/src/vendor/glm/./ext/vector_int4_sized.hpp \
- /home/sami/Documents/glfw/Light/test\ 2/src/vendor/glm/./ext/vector_uint4.hpp \
- /home/sami/Documents/glfw/Light/test\ 2/src/vendor/glm/./ext/vector_uint4_sized.hpp \
- /home/sami/Documents/glfw/Light/test\ 2/src/vendor/glm/mat2x2.hpp \
- /home/sami/Documents/glfw/Light/test\ 2/src/vendor/glm/./ext/matrix_double2x2.hpp \
- /home/sami/Documents/glfw/Light/test\ 2/src/vendor/glm/./ext/../detail/type_mat2x2.hpp \
- /home/sami/Documents/glfw/Light/test\ 2/src/vendor/glm/./ext/../detail/type_mat2x2.inl \
- /home/sami/Documents/glfw/Light/test\ 2/src/vendor/glm/./ext/../detail/../matrix.hpp \
- /home/sami/Documents/glfw/Light/test\ 2/src/vendor/glm/./ext/../detail/../detail/setup.hpp \
- /home/sami/Documents/glfw/Light/test\ 2/src/vendor/glm/./ext/../detail/../mat2x3.hpp \
- /home/sami/Documents/glfw/Light/test\ 2/src/vendor/glm/./ext/../detail/.././ext/matrix_double2x3.hpp \
- /home/sami/Documents/glfw/Light/test\ 2/src/vendor/glm/./ext/../detail/.././ext/../detail/type_mat2x3.hpp \
- /home/sami/Documents/glfw/Light/test\ 2/src/vendor/glm/./ext/../detail/.././ext/../detail/type_mat2x3.inl \
- /home/sami/Documents/glfw/Light/test\ 2/src/vendor/glm/./ext/../detail/.././ext/matrix_double2x3_precision.hpp \
- /home/sami/Documents/glfw/Light/test\ 2/src/vendor/glm/./ext/../detail/.././ext/matrix_float2x3.hpp \
- /home/sami/Documents/glfw/Light/test\ 2/src/vendor/glm/./ext/../detail/.././ext/matrix_float2x3_precision.hpp \
- /home/sami/Documents/glfw/Light/test\ 2/src/vendor/glm/./ext/../detail/../mat2x4.hpp \
- /home/sami/Documents/glfw/Light/test\ 2/src/vendor/glm/./ext/../detail/.././ext/matrix_double2x4.hpp \
- /home/sami/Documents/glfw/Light/test\ 2/src/vendor/glm/./ext/../detail/.././ext/../detail/type_mat2x4.hpp \
- /home/sami/Documents/glfw/Light/test\ 2/src/vendor/glm/./ext/../detail/.././ext/../detail/type_mat2x4.inl \
- /home/sami/Documents/glfw/Light/test\ 2/src/vendor/glm/./ext/../detail/.././ext/matrix_double2x4_precision.hpp \
- /home/sami/Documents/glfw/Light/test\ 2/src/vendor/glm/./ext/../detail/.././ext/matrix_float2x4.hpp \
- /home/sami/Documents/glfw/Light/test\ 2/src/vendor/glm/./ext/../detail/.././ext/matrix_float2x4_precision.hpp \
- /home/sami/Documents/glfw/Light/test\ 2/src/vendor/glm/./ext/../detail/../mat3x2.hpp \
- /home/sami/Documents/glfw/Light/test\ 2/src/vendor/glm/./ext/../detail/.././ext/matrix_double3x2.hpp \
- /home/sami/Documents/glfw/Light/test\ 2/src/vendor/glm/./ext/../detail/.././ext/../detail/type_mat3x2.hpp \
- /home/sami/Documents/glfw/Light/test\ 2/src/vendor/glm/./ext/../detail/.././ext/../detail/type_mat3x2.inl \
- /home/sami/Documents/glfw/Light/test\ 2/src/vendor/glm/./ext/../detail/.././ext/matrix_double3x2_precision.hpp \
- /home/sami/Documents/glfw/Light/test\ 2/src/vendor/glm/./ext/../detail/.././ext/matrix_float3x2.hpp \
- /home/sami/Documents/glfw/Light/test\ 2/src/vendor/glm/./ext/../detail/.././ext/matrix_float3x2_precision.hpp \
- /home/sami/Documents/glfw/Light/test\ 2/src/vendor/glm/./ext/../detail/../mat3x3.hpp \
- /home/sami/Documents/glfw/Light/test\ 2/src/vendor/glm/./ext/../detail/.././ext/matrix_double3x3.hpp \
- /home/sami/Documents/glfw/Light/test\ 2/src/vendor/glm/./ext/../detail/.././ext/../detail/type_mat3x3.hpp \
- /home/sami/Documents/glfw/Light/test\ 2/src/vendor/glm/./ext/../detail/.././ext/../detail/type_mat3x3.inl \
- /home/sami/Documents/glfw/Light/test\ 2/src/vendor/glm/./ext/../detail/.././ext/matrix_double3x3_precision.hpp \
- /home/sami/Documents/glfw/Light/test\ 2/src/vendor/glm/./ext/../detail/.././ext/matrix_float3x3.hpp \
- /home/sami/Documents/glfw/Light/test\ 2/src/vendor/glm/./ext/../detail/.././ext/matrix_float3x3_precision.hpp \
- /home/sami/Documents/glfw/Light/test\ 2/src/vendor/glm/./ext/../detail/../mat3x4.hpp \
- /home/sami/Documents/glfw/Light/test\ 2/src/vendor/glm/./ext/../detail/.././ext/matrix_double3x4.hpp \
- /home/sami/Documents/glfw/Light/test\ 2/src/vendor/glm/./ext/../detail/.././ext/../detail/type_mat3x4.hpp \
- /home/sami/Documents/glfw/Light/test\ 2/src/vendor/glm/./ext/../detail/.././ext/../detail/type_mat3x4.inl \
- /home/sami/Documents/glfw/Light/test\ 2/src/vendor/glm/./ext/../detail/.././ext/matrix_double3x4_precision.hpp \
- /home/sami/Documents/glfw/Light/test\ 2/src/vendor/glm/./ext/../detail/.././ext/matrix_float3x4.hpp \
- /home/sami/Documents/glfw/Light/test\ 2/src/vendor/glm/./ext/../detail/.././ext/matrix_float3x4_precision.hpp \
- /home/sami/Documents/glfw/Light/test\ 2/src/vendor/glm/./ext/../detail/../mat4x2.hpp \
- /home/sami/Documents/glfw/Light/test\ 2/src/vendor/glm/./ext/../detail/.././ext/matrix_double4x2.hpp \
- /home/sami/Documents/glfw/Light/test\ 2/src/vendor/glm/./ext/../detail/.././ext/../detail/type_mat4x2.hpp \
- /home/sami/Documents/glfw/Light/test\ 2/src/vendor/glm/./ext/../detail/.././ext/../detail/type_mat4x2.inl \
- /home/sami/Documents/glfw/Light/test\ 2/src/vendor/glm/./ext/../detail/.././ext/matrix_double4x2_precision.hpp \
- /home/sami/Documents/glfw/Light/test\ 2/src/vendor/glm/./ext/../detail/.././ext/matrix_float4x2.hpp \
- /home/sami/Documents/glfw/Light/test\ 2/src/vendor/glm/./ext/../detail/.././ext/matrix_float4x2_precision.hpp \
- /home/sami/Documents/glfw/Light/test\ 2/src/vendor/glm/./ext/../detail/../mat4x3.hpp \
- /home/sami/Documents/glfw/Light/test\ 2/src/vendor/glm/./ext/../detail/.././ext/matrix_double4x3.hpp \
- /home/sami/Documents/glfw/Light/test\ 2/src/vendor/glm/./ext/../detail/.././ext/../detail/type_mat4x3.hpp \
- /home/sami/Documents/glfw/Light/test\ 2/src/vendor/glm/./ext/../detail/.././ext/../detail/type_mat4x3.inl \
- /home/sami/Documents/glfw/Light/test\ 2/src/vendor/glm/./ext/../detail/.././ext/matrix_double4x3_precision.hpp \
- /home/sami/Documents/glfw/Light/test\ 2/src/vendor/glm/./ext/../detail/.././ext/matrix_float4x3.hpp \
- /home/sami/Documents/glfw/Light/test\ 2/src/vendor/glm/./ext/../detail/.././ext/matrix_float4x3_precision.hpp \
- /home/sami/Documents/glfw/Light/test\ 2/src/vendor/glm/./ext/../detail/../mat4x4.hpp \
- /home/sami/Documents/glfw/Light/test\ 2/src/vendor/glm/./ext/../detail/.././ext/matrix_double4x4.hpp \
- /home/sami/Documents/glfw/Light/test\ 2/src/vendor/glm/./ext/../detail/.././ext/../detail/type_mat4x4.hpp \
- /home/sami/Documents/glfw/Light/test\ 2/src/vendor/glm/./ext/../detail/.././ext/../detail/type_mat4x4.inl \
- /home/sami/Documents/glfw/Light/test\ 2/src/vendor/glm/./ext/../detail/.././ext/matrix_double4x4_precision.hpp \
- /home/sami/Documents/glfw/Light/test\ 2/src/vendor/glm/./ext/../detail/.././ext/matrix_float4x4.hpp \
- /home/sami/Documents/glfw/Light/test\ 2/src/vendor/glm/./ext/../detail/.././ext/matrix_float4x4_precision.hpp \
- /home/sami/Documents/glfw/Light/test\ 2/src/vendor/glm/./ext/../detail/../detail/func_matrix.inl \
- /home/sami/Documents/glfw/Light/test\ 2/src/vendor/glm/./ext/../detail/../detail/../geometric.hpp \
- /home/sami/Documents/glfw/Light/test\ 2/src/vendor/glm/./ext/../detail/../detail/../detail/func_geometric.inl \
- /home/sami/Documents/glfw/Light/test\ 2/src/vendor/glm/./ext/../detail/../detail/../detail/../exponential.hpp \
- /home/sami/Documents/glfw/Light/test\ 2/src/vendor/glm/./ext/../detail/../detail/../detail/../detail/type_vec1.hpp \
- /home/sami/Documents/glfw/Light/test\ 2/src/vendor/glm/./ext/../detail/../detail/../detail/../detail/type_vec1.inl \
- /home/sami/Documents/glfw/Light/test\ 2/src/vendor/glm/./ext/../detail/../detail/../detail/../detail/func_exponential.inl \
- /home/sami/Documents/glfw/Light/test\ 2/src/vendor/glm/./ext/../detail/../detail/../detail/../detail/../vector_relational.hpp \
- /home/sami/Documents/glfw/Light/test\ 2/src/vendor/glm/./ext/../detail/../detail/../detail/../detail/../detail/setup.hpp \
- /home/sami/Documents/glfw/Light/test\ 2/src/vendor/glm/./ext/../detail/../detail/../detail/../detail/../detail/func_vector_relational.inl \
- /home/sami/Documents/glfw/Light/test\ 2/src/vendor/glm/./ext/../detail/../detail/../detail/../detail/_vectorize.hpp \
- /home/sami/Documents/glfw/Light/test\ 2/src/vendor/glm/./ext/../detail/../detail/../detail/../common.hpp \
- /home/sami/Documents/glfw/Light/test\ 2/src/vendor/glm/./ext/../detail/../detail/../detail/../detail/_fixes.hpp \
- /home/sami/Documents/glfw/Light/test\ 2/src/vendor/glm/./ext/../detail/../detail/../detail/../detail/func_common.inl \
- /home/sami/Documents/glfw/Light/test\ 2/src/vendor/glm/./ext/../detail/../detail/../detail/../detail/compute_common.hpp \
- /home/sami/Documents/glfw/Light/test\ 2/src/vendor/glm/./ext/../detail/../detail/../detail/../detail/setup.hpp \
- /home/sami/Documents/glfw/Light/test\ 2/src/vendor/glm/./ext/matrix_double2x2_precision.hpp \
- /home/sami/Documents/glfw/Light/test\ 2/src/vendor/glm/./ext/matrix_float2x2.hpp \
- /home/sami/Documents/glfw/Light/test\ 2/src/vendor/glm/./ext/matrix_float2x2_precision.hpp \
- /home/sami/Documents/glfw/Light/test\ 2/src/vendor/glm/trigonometric.hpp \
- /home/sami/Documents/glfw/Light/test\ 2/src/vendor/glm/detail/func_trigonometric.inl \
- /home/sami/Documents/glfw/Light/test\ 2/src/vendor/glm/packing.hpp \
- /home/sami/Documents/glfw/Light/test\ 2/src/vendor/glm/detail/func_packing.inl \
- /home/sami/Documents/glfw/Light/test\ 2/src/vendor/glm/detail/type_half.hpp \
- /home/sami/Documents/glfw/Light/test\ 2/src/vendor/glm/detail/type_half.inl \
- /home/sami/Documents/glfw/Light/test\ 2/src/vendor/glm/integer.hpp \
- /home/sami/Documents/glfw/Light/test\ 2/src/vendor/glm/detail/func_integer.inl \
+ /home/sami/Documents/glfw/Light/material/test\ 2/src/vendor/glm/fwd.hpp \
+ /home/sami/Documents/glfw/Light/material/test\ 2/src/vendor/glm/detail/qualifier.hpp \
+ /home/sami/Documents/glfw/Light/material/test\ 2/src/vendor/glm/detail/setup.hpp \
+ /home/sami/Documents/glfw/Light/material/test\ 2/src/vendor/glm/vec2.hpp \
+ /home/sami/Documents/glfw/Light/material/test\ 2/src/vendor/glm/./ext/vector_bool2.hpp \
+ /home/sami/Documents/glfw/Light/material/test\ 2/src/vendor/glm/./ext/../detail/type_vec2.hpp \
+ /home/sami/Documents/glfw/Light/material/test\ 2/src/vendor/glm/./ext/../detail/type_vec2.inl \
+ /home/sami/Documents/glfw/Light/material/test\ 2/src/vendor/glm/./ext/../detail/./compute_vector_relational.hpp \
+ /home/sami/Documents/glfw/Light/material/test\ 2/src/vendor/glm/./ext/../detail/./setup.hpp \
+ /home/sami/Documents/glfw/Light/material/test\ 2/src/vendor/glm/./ext/vector_bool2_precision.hpp \
+ /home/sami/Documents/glfw/Light/material/test\ 2/src/vendor/glm/./ext/vector_float2.hpp \
+ /home/sami/Documents/glfw/Light/material/test\ 2/src/vendor/glm/./ext/vector_float2_precision.hpp \
+ /home/sami/Documents/glfw/Light/material/test\ 2/src/vendor/glm/./ext/vector_double2.hpp \
+ /home/sami/Documents/glfw/Light/material/test\ 2/src/vendor/glm/./ext/vector_double2_precision.hpp \
+ /home/sami/Documents/glfw/Light/material/test\ 2/src/vendor/glm/./ext/vector_int2.hpp \
+ /home/sami/Documents/glfw/Light/material/test\ 2/src/vendor/glm/./ext/vector_int2_sized.hpp \
+ /home/sami/Documents/glfw/Light/material/test\ 2/src/vendor/glm/./ext/../ext/scalar_int_sized.hpp \
+ /home/sami/Documents/glfw/Light/material/test\ 2/src/vendor/glm/./ext/../ext/../detail/setup.hpp \
+ /home/sami/Documents/glfw/Light/material/test\ 2/src/vendor/glm/./ext/vector_uint2.hpp \
+ /home/sami/Documents/glfw/Light/material/test\ 2/src/vendor/glm/./ext/vector_uint2_sized.hpp \
+ /home/sami/Documents/glfw/Light/material/test\ 2/src/vendor/glm/./ext/../ext/scalar_uint_sized.hpp \
+ /home/sami/Documents/glfw/Light/material/test\ 2/src/vendor/glm/vec3.hpp \
+ /home/sami/Documents/glfw/Light/material/test\ 2/src/vendor/glm/./ext/vector_bool3.hpp \
+ /home/sami/Documents/glfw/Light/material/test\ 2/src/vendor/glm/./ext/../detail/type_vec3.hpp \
+ /home/sami/Documents/glfw/Light/material/test\ 2/src/vendor/glm/./ext/../detail/type_vec3.inl \
+ /home/sami/Documents/glfw/Light/material/test\ 2/src/vendor/glm/./ext/vector_bool3_precision.hpp \
+ /home/sami/Documents/glfw/Light/material/test\ 2/src/vendor/glm/./ext/vector_float3.hpp \
+ /home/sami/Documents/glfw/Light/material/test\ 2/src/vendor/glm/./ext/vector_float3_precision.hpp \
+ /home/sami/Documents/glfw/Light/material/test\ 2/src/vendor/glm/./ext/vector_double3.hpp \
+ /home/sami/Documents/glfw/Light/material/test\ 2/src/vendor/glm/./ext/vector_double3_precision.hpp \
+ /home/sami/Documents/glfw/Light/material/test\ 2/src/vendor/glm/./ext/vector_int3.hpp \
+ /home/sami/Documents/glfw/Light/material/test\ 2/src/vendor/glm/./ext/vector_int3_sized.hpp \
+ /home/sami/Documents/glfw/Light/material/test\ 2/src/vendor/glm/./ext/vector_uint3.hpp \
+ /home/sami/Documents/glfw/Light/material/test\ 2/src/vendor/glm/./ext/vector_uint3_sized.hpp \
+ /home/sami/Documents/glfw/Light/material/test\ 2/src/vendor/glm/vec4.hpp \
+ /home/sami/Documents/glfw/Light/material/test\ 2/src/vendor/glm/./ext/vector_bool4.hpp \
+ /home/sami/Documents/glfw/Light/material/test\ 2/src/vendor/glm/./ext/../detail/type_vec4.hpp \
+ /home/sami/Documents/glfw/Light/material/test\ 2/src/vendor/glm/./ext/../detail/type_vec4.inl \
+ /home/sami/Documents/glfw/Light/material/test\ 2/src/vendor/glm/./ext/vector_bool4_precision.hpp \
+ /home/sami/Documents/glfw/Light/material/test\ 2/src/vendor/glm/./ext/vector_float4.hpp \
+ /home/sami/Documents/glfw/Light/material/test\ 2/src/vendor/glm/./ext/vector_float4_precision.hpp \
+ /home/sami/Documents/glfw/Light/material/test\ 2/src/vendor/glm/./ext/vector_double4.hpp \
+ /home/sami/Documents/glfw/Light/material/test\ 2/src/vendor/glm/./ext/vector_double4_precision.hpp \
+ /home/sami/Documents/glfw/Light/material/test\ 2/src/vendor/glm/./ext/../detail/setup.hpp \
+ /home/sami/Documents/glfw/Light/material/test\ 2/src/vendor/glm/./ext/vector_int4.hpp \
+ /home/sami/Documents/glfw/Light/material/test\ 2/src/vendor/glm/./ext/vector_int4_sized.hpp \
+ /home/sami/Documents/glfw/Light/material/test\ 2/src/vendor/glm/./ext/vector_uint4.hpp \
+ /home/sami/Documents/glfw/Light/material/test\ 2/src/vendor/glm/./ext/vector_uint4_sized.hpp \
+ /home/sami/Documents/glfw/Light/material/test\ 2/src/vendor/glm/mat2x2.hpp \
+ /home/sami/Documents/glfw/Light/material/test\ 2/src/vendor/glm/./ext/matrix_double2x2.hpp \
+ /home/sami/Documents/glfw/Light/material/test\ 2/src/vendor/glm/./ext/../detail/type_mat2x2.hpp \
+ /home/sami/Documents/glfw/Light/material/test\ 2/src/vendor/glm/./ext/../detail/type_mat2x2.inl \
+ /home/sami/Documents/glfw/Light/material/test\ 2/src/vendor/glm/./ext/../detail/../matrix.hpp \
+ /home/sami/Documents/glfw/Light/material/test\ 2/src/vendor/glm/./ext/../detail/../detail/setup.hpp \
+ /home/sami/Documents/glfw/Light/material/test\ 2/src/vendor/glm/./ext/../detail/../mat2x3.hpp \
+ /home/sami/Documents/glfw/Light/material/test\ 2/src/vendor/glm/./ext/../detail/.././ext/matrix_double2x3.hpp \
+ /home/sami/Documents/glfw/Light/material/test\ 2/src/vendor/glm/./ext/../detail/.././ext/../detail/type_mat2x3.hpp \
+ /home/sami/Documents/glfw/Light/material/test\ 2/src/vendor/glm/./ext/../detail/.././ext/../detail/type_mat2x3.inl \
+ /home/sami/Documents/glfw/Light/material/test\ 2/src/vendor/glm/./ext/../detail/.././ext/matrix_double2x3_precision.hpp \
+ /home/sami/Documents/glfw/Light/material/test\ 2/src/vendor/glm/./ext/../detail/.././ext/matrix_float2x3.hpp \
+ /home/sami/Documents/glfw/Light/material/test\ 2/src/vendor/glm/./ext/../detail/.././ext/matrix_float2x3_precision.hpp \
+ /home/sami/Documents/glfw/Light/material/test\ 2/src/vendor/glm/./ext/../detail/../mat2x4.hpp \
+ /home/sami/Documents/glfw/Light/material/test\ 2/src/vendor/glm/./ext/../detail/.././ext/matrix_double2x4.hpp \
+ /home/sami/Documents/glfw/Light/material/test\ 2/src/vendor/glm/./ext/../detail/.././ext/../detail/type_mat2x4.hpp \
+ /home/sami/Documents/glfw/Light/material/test\ 2/src/vendor/glm/./ext/../detail/.././ext/../detail/type_mat2x4.inl \
+ /home/sami/Documents/glfw/Light/material/test\ 2/src/vendor/glm/./ext/../detail/.././ext/matrix_double2x4_precision.hpp \
+ /home/sami/Documents/glfw/Light/material/test\ 2/src/vendor/glm/./ext/../detail/.././ext/matrix_float2x4.hpp \
+ /home/sami/Documents/glfw/Light/material/test\ 2/src/vendor/glm/./ext/../detail/.././ext/matrix_float2x4_precision.hpp \
+ /home/sami/Documents/glfw/Light/material/test\ 2/src/vendor/glm/./ext/../detail/../mat3x2.hpp \
+ /home/sami/Documents/glfw/Light/material/test\ 2/src/vendor/glm/./ext/../detail/.././ext/matrix_double3x2.hpp \
+ /home/sami/Documents/glfw/Light/material/test\ 2/src/vendor/glm/./ext/../detail/.././ext/../detail/type_mat3x2.hpp \
+ /home/sami/Documents/glfw/Light/material/test\ 2/src/vendor/glm/./ext/../detail/.././ext/../detail/type_mat3x2.inl \
+ /home/sami/Documents/glfw/Light/material/test\ 2/src/vendor/glm/./ext/../detail/.././ext/matrix_double3x2_precision.hpp \
+ /home/sami/Documents/glfw/Light/material/test\ 2/src/vendor/glm/./ext/../detail/.././ext/matrix_float3x2.hpp \
+ /home/sami/Documents/glfw/Light/material/test\ 2/src/vendor/glm/./ext/../detail/.././ext/matrix_float3x2_precision.hpp \
+ /home/sami/Documents/glfw/Light/material/test\ 2/src/vendor/glm/./ext/../detail/../mat3x3.hpp \
+ /home/sami/Documents/glfw/Light/material/test\ 2/src/vendor/glm/./ext/../detail/.././ext/matrix_double3x3.hpp \
+ /home/sami/Documents/glfw/Light/material/test\ 2/src/vendor/glm/./ext/../detail/.././ext/../detail/type_mat3x3.hpp \
+ /home/sami/Documents/glfw/Light/material/test\ 2/src/vendor/glm/./ext/../detail/.././ext/../detail/type_mat3x3.inl \
+ /home/sami/Documents/glfw/Light/material/test\ 2/src/vendor/glm/./ext/../detail/.././ext/matrix_double3x3_precision.hpp \
+ /home/sami/Documents/glfw/Light/material/test\ 2/src/vendor/glm/./ext/../detail/.././ext/matrix_float3x3.hpp \
+ /home/sami/Documents/glfw/Light/material/test\ 2/src/vendor/glm/./ext/../detail/.././ext/matrix_float3x3_precision.hpp \
+ /home/sami/Documents/glfw/Light/material/test\ 2/src/vendor/glm/./ext/../detail/../mat3x4.hpp \
+ /home/sami/Documents/glfw/Light/material/test\ 2/src/vendor/glm/./ext/../detail/.././ext/matrix_double3x4.hpp \
+ /home/sami/Documents/glfw/Light/material/test\ 2/src/vendor/glm/./ext/../detail/.././ext/../detail/type_mat3x4.hpp \
+ /home/sami/Documents/glfw/Light/material/test\ 2/src/vendor/glm/./ext/../detail/.././ext/../detail/type_mat3x4.inl \
+ /home/sami/Documents/glfw/Light/material/test\ 2/src/vendor/glm/./ext/../detail/.././ext/matrix_double3x4_precision.hpp \
+ /home/sami/Documents/glfw/Light/material/test\ 2/src/vendor/glm/./ext/../detail/.././ext/matrix_float3x4.hpp \
+ /home/sami/Documents/glfw/Light/material/test\ 2/src/vendor/glm/./ext/../detail/.././ext/matrix_float3x4_precision.hpp \
+ /home/sami/Documents/glfw/Light/material/test\ 2/src/vendor/glm/./ext/../detail/../mat4x2.hpp \
+ /home/sami/Documents/glfw/Light/material/test\ 2/src/vendor/glm/./ext/../detail/.././ext/matrix_double4x2.hpp \
+ /home/sami/Documents/glfw/Light/material/test\ 2/src/vendor/glm/./ext/../detail/.././ext/../detail/type_mat4x2.hpp \
+ /home/sami/Documents/glfw/Light/material/test\ 2/src/vendor/glm/./ext/../detail/.././ext/../detail/type_mat4x2.inl \
+ /home/sami/Documents/glfw/Light/material/test\ 2/src/vendor/glm/./ext/../detail/.././ext/matrix_double4x2_precision.hpp \
+ /home/sami/Documents/glfw/Light/material/test\ 2/src/vendor/glm/./ext/../detail/.././ext/matrix_float4x2.hpp \
+ /home/sami/Documents/glfw/Light/material/test\ 2/src/vendor/glm/./ext/../detail/.././ext/matrix_float4x2_precision.hpp \
+ /home/sami/Documents/glfw/Light/material/test\ 2/src/vendor/glm/./ext/../detail/../mat4x3.hpp \
+ /home/sami/Documents/glfw/Light/material/test\ 2/src/vendor/glm/./ext/../detail/.././ext/matrix_double4x3.hpp \
+ /home/sami/Documents/glfw/Light/material/test\ 2/src/vendor/glm/./ext/../detail/.././ext/../detail/type_mat4x3.hpp \
+ /home/sami/Documents/glfw/Light/material/test\ 2/src/vendor/glm/./ext/../detail/.././ext/../detail/type_mat4x3.inl \
+ /home/sami/Documents/glfw/Light/material/test\ 2/src/vendor/glm/./ext/../detail/.././ext/matrix_double4x3_precision.hpp \
+ /home/sami/Documents/glfw/Light/material/test\ 2/src/vendor/glm/./ext/../detail/.././ext/matrix_float4x3.hpp \
+ /home/sami/Documents/glfw/Light/material/test\ 2/src/vendor/glm/./ext/../detail/.././ext/matrix_float4x3_precision.hpp \
+ /home/sami/Documents/glfw/Light/material/test\ 2/src/vendor/glm/./ext/../detail/../mat4x4.hpp \
+ /home/sami/Documents/glfw/Light/material/test\ 2/src/vendor/glm/./ext/../detail/.././ext/matrix_double4x4.hpp \
+ /home/sami/Documents/glfw/Light/material/test\ 2/src/vendor/glm/./ext/../detail/.././ext/../detail/type_mat4x4.hpp \
+ /home/sami/Documents/glfw/Light/material/test\ 2/src/vendor/glm/./ext/../detail/.././ext/../detail/type_mat4x4.inl \
+ /home/sami/Documents/glfw/Light/material/test\ 2/src/vendor/glm/./ext/../detail/.././ext/matrix_double4x4_precision.hpp \
+ /home/sami/Documents/glfw/Light/material/test\ 2/src/vendor/glm/./ext/../detail/.././ext/matrix_float4x4.hpp \
+ /home/sami/Documents/glfw/Light/material/test\ 2/src/vendor/glm/./ext/../detail/.././ext/matrix_float4x4_precision.hpp \
+ /home/sami/Documents/glfw/Light/material/test\ 2/src/vendor/glm/./ext/../detail/../detail/func_matrix.inl \
+ /home/sami/Documents/glfw/Light/material/test\ 2/src/vendor/glm/./ext/../detail/../detail/../geometric.hpp \
+ /home/sami/Documents/glfw/Light/material/test\ 2/src/vendor/glm/./ext/../detail/../detail/../detail/func_geometric.inl \
+ /home/sami/Documents/glfw/Light/material/test\ 2/src/vendor/glm/./ext/../detail/../detail/../detail/../exponential.hpp \
+ /home/sami/Documents/glfw/Light/material/test\ 2/src/vendor/glm/./ext/../detail/../detail/../detail/../detail/type_vec1.hpp \
+ /home/sami/Documents/glfw/Light/material/test\ 2/src/vendor/glm/./ext/../detail/../detail/../detail/../detail/type_vec1.inl \
+ /home/sami/Documents/glfw/Light/material/test\ 2/src/vendor/glm/./ext/../detail/../detail/../detail/../detail/func_exponential.inl \
+ /home/sami/Documents/glfw/Light/material/test\ 2/src/vendor/glm/./ext/../detail/../detail/../detail/../detail/../vector_relational.hpp \
+ /home/sami/Documents/glfw/Light/material/test\ 2/src/vendor/glm/./ext/../detail/../detail/../detail/../detail/../detail/setup.hpp \
+ /home/sami/Documents/glfw/Light/material/test\ 2/src/vendor/glm/./ext/../detail/../detail/../detail/../detail/../detail/func_vector_relational.inl \
+ /home/sami/Documents/glfw/Light/material/test\ 2/src/vendor/glm/./ext/../detail/../detail/../detail/../detail/_vectorize.hpp \
+ /home/sami/Documents/glfw/Light/material/test\ 2/src/vendor/glm/./ext/../detail/../detail/../detail/../common.hpp \
+ /home/sami/Documents/glfw/Light/material/test\ 2/src/vendor/glm/./ext/../detail/../detail/../detail/../detail/_fixes.hpp \
+ /home/sami/Documents/glfw/Light/material/test\ 2/src/vendor/glm/./ext/../detail/../detail/../detail/../detail/func_common.inl \
+ /home/sami/Documents/glfw/Light/material/test\ 2/src/vendor/glm/./ext/../detail/../detail/../detail/../detail/compute_common.hpp \
+ /home/sami/Documents/glfw/Light/material/test\ 2/src/vendor/glm/./ext/../detail/../detail/../detail/../detail/setup.hpp \
+ /home/sami/Documents/glfw/Light/material/test\ 2/src/vendor/glm/./ext/matrix_double2x2_precision.hpp \
+ /home/sami/Documents/glfw/Light/material/test\ 2/src/vendor/glm/./ext/matrix_float2x2.hpp \
+ /home/sami/Documents/glfw/Light/material/test\ 2/src/vendor/glm/./ext/matrix_float2x2_precision.hpp \
+ /home/sami/Documents/glfw/Light/material/test\ 2/src/vendor/glm/trigonometric.hpp \
+ /home/sami/Documents/glfw/Light/material/test\ 2/src/vendor/glm/detail/func_trigonometric.inl \
+ /home/sami/Documents/glfw/Light/material/test\ 2/src/vendor/glm/packing.hpp \
+ /home/sami/Documents/glfw/Light/material/test\ 2/src/vendor/glm/detail/func_packing.inl \
+ /home/sami/Documents/glfw/Light/material/test\ 2/src/vendor/glm/detail/type_half.hpp \
+ /home/sami/Documents/glfw/Light/material/test\ 2/src/vendor/glm/detail/type_half.inl \
+ /home/sami/Documents/glfw/Light/material/test\ 2/src/vendor/glm/integer.hpp \
+ /home/sami/Documents/glfw/Light/material/test\ 2/src/vendor/glm/detail/func_integer.inl \
  /usr/include/c++/9/iostream /usr/include/c++/9/ostream \
  /usr/include/c++/9/ios /usr/include/c++/9/bits/ios_base.h \
  /usr/include/c++/9/bits/locale_classes.h \
@@ -317,8 +317,8 @@ CMakeFiles/main.dir/src/Shader.cpp.o: \
  /usr/include/x86_64-linux-gnu/c++/9/bits/c++io.h \
  /usr/include/c++/9/bits/fstream.tcc /usr/include/c++/9/sstream \
  /usr/include/c++/9/bits/sstream.tcc \
- /home/sami/Documents/glfw/Light/test\ 2/src/Renderer.h \
+ /home/sami/Documents/glfw/Light/material/test\ 2/src/Renderer.h \
  /usr/include/GL/glew.h /usr/include/GL/glu.h /usr/include/GL/gl.h \
- /home/sami/Documents/glfw/Light/test\ 2/src/Vao.h \
- /home/sami/Documents/glfw/Light/test\ 2/src/Vbo.h \
- /home/sami/Documents/glfw/Light/test\ 2/src/Ibo.h
+ /home/sami/Documents/glfw/Light/material/test\ 2/src/Vao.h \
+ /home/sami/Documents/glfw/Light/material/test\ 2/src/Vbo.h \
+ /home/sami/Documents/glfw/Light/material/test\ 2/src/Ibo.h

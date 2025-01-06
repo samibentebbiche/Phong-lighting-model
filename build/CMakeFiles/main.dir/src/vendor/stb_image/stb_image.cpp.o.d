@@ -1,7 +1,7 @@
 CMakeFiles/main.dir/src/vendor/stb_image/stb_image.cpp.o: \
- /home/sami/Documents/glfw/Light/test\ 2/src/vendor/stb_image/stb_image.cpp \
+ /home/sami/Documents/glfw/Light/material/test\ 2/src/vendor/stb_image/stb_image.cpp \
  /usr/include/stdc-predef.h \
- /home/sami/Documents/glfw/Light/test\ 2/src/vendor/stb_image/stb_image.h \
+ /home/sami/Documents/glfw/Light/material/test\ 2/src/vendor/stb_image/stb_image.h \
  /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
